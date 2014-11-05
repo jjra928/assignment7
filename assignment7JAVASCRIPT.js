@@ -37,7 +37,7 @@ function navigate() {
 }
 
 if(!location.hash) {
-	location.hash = "#home";
+	location.hash = "#Jennie";
 }
 
 navigate();
