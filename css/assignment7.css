@@ -1,3 +1,17 @@
+/*
+  File:  http://jjra928.github.io/assignment7/assignment7HTML.html
+  91.461 Assignment7 :  Creating a Single Page Navigation Interface
+  Joseph Raffa, UMass Lowell Computer Science Undergradute, jraffa@cs.uml.edu
+  Date: 11-03-2014
+  Copyright (c) 2014 by Joseph Raffa.  All rights reserved.  
+  CSS file to style my bands blog site.   
+*/
+
+/*
+	Creates a background image that doesn't repeat.
+	Image is centered with background position.
+	fixed means it will not change with resizing of divs and such
+*/
 body {
 	background-image: url("../images/art.png");
 	background-repeat: no-repeat;
@@ -6,11 +20,20 @@ body {
 	background-attachment: fixed;
 }
 
+/*
+	Sets width of the navigation bar, and spaces it within the div.
+*/
 #navbar {
 	width: 360px;
 	margin: 0 auto;
 	padding-top: 40px;
 }
+
+/*
+	Looks at the links within the navigation bar.
+	Sets their font, font size, spaces them correctly,
+	and adds a nice oval type border around them.
+*/
 
 #navbar a {
 	font-family: sans-serif;
@@ -24,10 +47,16 @@ body {
 	text-decoration: none;
 }
 
+/*
+	Sets background color of the link corresponding to the page we are on.
+*/
 .active {
 	background-color: #444444;
 }
 
+/*
+	All paragraphs set to sans-serif font, aligned center and has a set size.
+*/
 p {
 	font-family: sans-serif;
 	text-align: center;
@@ -35,11 +64,11 @@ p {
 }
 
 /*
-#title {
-	width: 360px;
-	margin: 0 auto;
-	background-color: #ffffff;
-}
+	This code styles the title at the top of the page.
+	it centers it within the div, and adds a border.
+	line height is zero because with increased size,
+	the text was sliding vertically down the page.
+	It was the only fix I could find. Fix later.
 */
 
 #titleDiv {
@@ -53,12 +82,19 @@ p {
 	opacity: 0.8;
 }
 
+/*
+	header gets spaced correctly
+*/
 #header {
 	text-align: center;	
 	font-size:50px;	
 	padding-top:10px;
 }
 
+/*
+	The content div has got to be centered, a bit smaller than the title div, a bit see through with opacity,
+	and a rounded border.
+*/
 #content {
 	background-color: #ffffff;
 	margin-top: 10px;
@@ -70,6 +106,11 @@ p {
 	border-radius:20px;
 	opacity: 0.8;
 }
+
+/*
+	The rest of the code deals with audio player, text, and image centering.
+	basic margin and padding manipulation. Font size as well.
+*/
 
 #audioplayer {
 	padding: 10px;

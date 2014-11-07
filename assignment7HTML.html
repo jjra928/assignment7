@@ -1,16 +1,28 @@
 <!DOCTYPE html>
+<!--
+  File:  http://jjra928.github.io/assignment7/assignment7HTML.html
+  91.461 Assignment7 :  Creating a Single Page Navigation Interface
+  Joseph Raffa, UMass Lowell Computer Science Undergradute, jraffa@cs.uml.edu
+  Date: 11-03-2014
+  Copyright (c) 2014 by Joseph Raffa.  All rights reserved.  
+  An html file to lay out the structure for a web page that will create 
+  a little blog site for my band.   
+-->
 <html>
 	<head>
+		<!--This sets up the file with a title and links some css -->
 		<meta charset="utf-8">
 		<title>Joe's Music Blog</title>
 		<link rel="stylesheet" href="css/assignment7.css"/>
 	</head>
 	<body>
+		<!--setting up a div for css to use -->
 		<div id="titleDiv">
 			<div id="title">
 				<h1 id="header">Joe's Music Blog</h1>
 			</div>
 		
+		<!-- creates a navbar full of three links to navigate the page -->
 			<div id="navbar">
 				<a href="#music">Music</a>
 				<a href="#about">About</a>
@@ -18,7 +30,8 @@
 			</div>
 		
 		</div>
-
+	
+		<!--and empty dive to put html code for the page we need to be on. -->
 		<div id ="content"></div>
 			
 		<script src="assignment7JAVASCRIPT.js"></script>
