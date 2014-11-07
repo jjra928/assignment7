@@ -107,11 +107,6 @@ p {
 	opacity: 0.8;
 }
 
-/*
-	The rest of the code deals with audio player, text, and image centering.
-	basic margin and padding manipulation. Font size as well.
-*/
-
 #audioplayer {
 	padding: 10px;
 }
